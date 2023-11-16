@@ -27314,34 +27314,95 @@ parcelHelpers.export(exports, "MainView", ()=>MainView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _mainViewScss = require("./main-view.scss");
 const MainView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "heading",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Welcome to SabrosaFood!"
-                }, void 0, false, {
-                    fileName: "src/components/MainView/main-view.jsx",
-                    lineNumber: 7,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "Give your life more Sabrosura with our Latino dishes."
-                }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "navigation-bar",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/MainView/main-view.jsx",
+                            lineNumber: 9,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Our Story"
+                        }, void 0, false, {
+                            fileName: "src/components/MainView/main-view.jsx",
+                            lineNumber: 10,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Dishes"
+                        }, void 0, false, {
+                            fileName: "src/components/MainView/main-view.jsx",
+                            lineNumber: 11,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/components/MainView/main-view.jsx",
+                            lineNumber: 12,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/MainView/main-view.jsx",
                     lineNumber: 8,
                     columnNumber: 17
                 }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/MainView/main-view.jsx",
-            lineNumber: 6,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "src/components/MainView/main-view.jsx",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "heading",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Welcome to LatinoFood!"
+                    }, void 0, false, {
+                        fileName: "src/components/MainView/main-view.jsx",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Give your life more enjoyment with our Latino dishes."
+                    }, void 0, false, {
+                        fileName: "src/components/MainView/main-view.jsx",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/MainView/main-view.jsx",
+                lineNumber: 15,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bg-image",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "#",
+                    alt: "Background photo"
+                }, void 0, false, {
+                    fileName: "src/components/MainView/main-view.jsx",
+                    lineNumber: 21,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/MainView/main-view.jsx",
+                lineNumber: 20,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/MainView/main-view.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
@@ -27354,7 +27415,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1vTOw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lPd4Z"}],"1vTOw":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"1vTOw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lPd4Z","./main-view.scss":"enN6u"}],"1vTOw":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27384,6 +27445,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["ZLytG","hqm4s","d8Dch"], "d8Dch", "parcelRequireb308")
+},{}],"enN6u":[function() {},{}]},["ZLytG","hqm4s","d8Dch"], "d8Dch", "parcelRequireb308")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

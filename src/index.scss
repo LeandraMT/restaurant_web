@@ -1,5 +1,13 @@
-$color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.restaurant {
-    color: $color;
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }

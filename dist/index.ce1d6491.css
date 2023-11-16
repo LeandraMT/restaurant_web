@@ -1,5 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #eaf6f6;
+}
+
+.navigation-bar {
+  margin: 10px;
+}
+
+.navigation-bar ul {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.navigation-bar ul li {
+  margin: 25px;
+  font-size: 18px;
+}
+
 .restaurant {
-  color: red;
+  color: #222831;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
